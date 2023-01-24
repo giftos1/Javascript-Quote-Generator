@@ -9,12 +9,9 @@ body {
     flex-direction: column;
     height: 100vh;
     background-image: url("./images/library.jpg");
-    /* background-color: rgb(34, 63, 80); */
 }
 
 #heading {
-    /* position: relative; */
-    /* top: -50px; */
     height: fit-content;
     width: fit-content;
     padding: 5px;
