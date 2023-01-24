@@ -80,6 +80,6 @@ p {
 
   @media only screen and (max-height: 450px)  {
     .quote {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
