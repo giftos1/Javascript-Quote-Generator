@@ -1,5 +1,4 @@
 const container = document.querySelector('.quote-container');
-const quote = document.querySelector('.quote');
 const button = document.querySelector('#button');
 
 function changeQuote() {
