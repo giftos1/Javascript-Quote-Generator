@@ -8,9 +8,8 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    /* background-image: url("./images/history.jpg"); */
-    background-color: rgb(34, 63, 80);
-    object-fit: cover;
+    background-image: url("./images/library.jpg");
+    /* background-color: rgb(34, 63, 80); */
 }
 
 #heading {
@@ -30,7 +29,7 @@ body {
     align-items: center;
     width: 50%;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
     background-color: rgba(236, 233, 233, 0.548);
     font-weight: 600;
     font-size: 20px;
@@ -44,6 +43,8 @@ p {
     font-family: 'Trebuchet MS';
     color: rgba(44, 49, 112, 0.932);
     font-size: 25px;
+    display: block;
+    padding-top: 10px;
 }
 
 .quote {
@@ -55,6 +56,22 @@ p {
 #button {
     background-color: rgba(184, 180, 180, 0.945);
     border-radius: 6px;
-    width: 12%;
+    width: 17%;
     cursor: pointer;
+    position: relative;
+    bottom: 35px;
 }
+
+.quote:not(:first-child){
+    display: none;
+}
+
+@media only screen and (max-width: 503px) {
+    .quote-container {
+      padding-bottom: 35px;
+    }
+
+    #button {
+        bottom: 50px;
+    }
+  }
